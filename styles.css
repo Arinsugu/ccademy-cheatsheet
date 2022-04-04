@@ -1,0 +1,77 @@
+h1, h2, h3 {
+  text-align: center;
+  width: 75%;
+  margin: 10px auto;
+}
+
+h1 {
+  font-size: 100px;
+  background-color: rgba(67, 100, 54, 90%);
+  font-family: cursive;
+}
+
+h2 {
+  background-color: rgba(67, 100, 54, 70%);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+  background-color: rgba(67, 100, 54, 50%);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h6 {
+  font-family: Georgia;
+  font-weight: 600;
+  opacity: 80%;
+  background-color: #f0f0f0;
+}
+
+
+thead {
+  width: 75%;
+  background-color: #895637;
+}
+
+table {
+  border: 3px solid #252525;
+  margin: auto;
+  display: table;
+  table-layout: auto;
+  width: 75%;
+  background-color: #DAB49D;
+}
+
+td {
+    border-top: 1px solid #252525;
+    border-right: 1px solid #252525;
+}
+
+/* custom html tag group being stylized in css*/
+
+tag {
+  color: firebrick;
+  font-style: italic;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+attribute {
+  background-color: #EEE;
+  font-style: italic;
+  font-weight: 800;
+  margin: 0.5em;
+  display: inline-block;
+}
+
+
+#examplesyntax {
+  font-style: italic;
+  text-align: center;
+}
+
+#csslinkattributes {
+  text-align: left;
+  margin: 10px, auto;
+  display: inline-block;
+}
